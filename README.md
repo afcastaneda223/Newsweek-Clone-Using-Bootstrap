@@ -1,6 +1,6 @@
-# HTML forms
+# Newsweek Using Bootstrap
 
-> This is the  project of Microverse.
+> Using Bootstrap to Clone Newsweek page
 
 
 Tittle
@@ -12,10 +12,10 @@ Tittle
 
 ## GitHub Repo
 
-- 
+- https://github.com/afcastaneda223/Newsweek-Clone-Using-Bootstrap
 
 
-## Authors
+## Author
 
 👤 **Andres Felipe Castañeda Ramos**
 
