@@ -1,0 +1,23 @@
+#newsletter{
+    background-image: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 250px;
+}
+
+#suscribe{
+    min-height: 250px;
+}
+
+#newsletterimg{
+    max-height: 250px;
+}
+
+#nwlogofooterimg{
+    max-height: 30px;
+}
+
+#socialmediaimg{
+    max-height: 25px;
+}
