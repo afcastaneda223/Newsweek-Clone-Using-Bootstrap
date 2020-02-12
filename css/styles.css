@@ -20,4 +20,8 @@
 
 #socialmediaimg{
     max-height: 25px;
+} 
+
+.card{
+    border: none
 }
