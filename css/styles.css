@@ -4,6 +4,7 @@
   position: fixed;
   top: 0;
   height: 50px;
+  min-width: 450px;
 }
 
 #stickynav img {
@@ -82,19 +83,6 @@
 
 .card {
   border: none;
-}
-
-.center {
-  max-height: 1900px;
-  position: sticky;
-}
-
-.left {
-  min-height: 1900px;
-}
-
-.right {
-  min-height: 1900px;
 }
 
 body h4 {
