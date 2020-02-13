@@ -34,8 +34,6 @@
 #whitenav {
   z-index: 888887;
   position: relative;
-  font-family: 'Roboto Condensed', sans-serif;
-  font-size: 20px;
 }
 
 .link1 a:visited {
