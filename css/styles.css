@@ -1,5 +1,5 @@
 #stickynav {
-  background-color: #ED3833;
+  background-color: #ed3833;
   z-index: 888888;
   position: fixed;
   top: 0;
@@ -11,21 +11,21 @@
 }
 
 .stknv-1 {
-  color: #FFFFFF;
+  color: #fff;
 }
 
 .stknv-2 {
-  color: #ED3833;
-  background-color: #FFFFFF;
+  color: #ed3833;
+  background-color: #fff;
 }
 
 #dropdownMenuButton {
-  color: #F29993;
-  background-color: #ED3833;
+  color: #f29993;
+  background-color: #ed3833;
 }
 
 #rednav {
-  background-color: #ED3833;
+  background-color: #ed3833;
   z-index: 999999999;
   position: relative;
 }
@@ -35,13 +35,12 @@
   position: relative;
 }
 
-
 .link1 a:visited {
   color: black;
 }
 
 .link1 a:hover {
-  color: #ED3833;
+  color: #ed3833;
   text-decoration: none;
 }
 
@@ -52,11 +51,8 @@
 .link2 a:hover {
   color: black;
   text-decoration: underline;
-  text-decoration-color: #ED3833;
+  text-decoration-color: #ed3833;
 }
-
-
-
 
 #newsletter {
   background-image: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?);
@@ -83,5 +79,5 @@
 }
 
 .card {
-  border: none
+  border: none;
 }
