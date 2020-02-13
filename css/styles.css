@@ -1,64 +1,55 @@
-#stickynav{
-  background-color: #ED3833; 
-  z-index: 888888; 
-  position: fixed; 
+#stickynav {
+  background-color: #ED3833;
+  z-index: 888888;
+  position: fixed;
   top: 0;
   height: 50px;
 }
 
-#stickynav img{
+#stickynav img {
   max-height: 30px;
 }
 
-#stknv-1{
- color: #FFFFFF;
+.stknv-1 {
+  color: #FFFFFF;
 }
 
-#stknv-2{
+.stknv-2 {
   color: #ED3833;
   background-color: #FFFFFF;
 }
 
-#dropdownMenuButton{
- color: #F29993;
- background-color: #ED3833;
+#dropdownMenuButton {
+  color: #F29993;
+  background-color: #ED3833;
 }
 
-#rednav{
-  background-color: #ED3833; 
-  z-index: 999999999; 
-  position: relative;
-}
-#whitenav{
-  z-index: 888887; 
+#rednav {
+  background-color: #ED3833;
+  z-index: 999999999;
   position: relative;
 }
 
+#whitenav {
+  z-index: 888887;
+  position: relative;
+}
 
-#link1 a:visited{
+
+.link1 a:visited {
   color: black;
 }
 
-#link1 a:hover{
+.link1 a:hover {
   color: #ED3833;
   text-decoration: none;
 }
 
-#link2 a:visited{
+.link2 a:visited {
   color: black;
 }
 
-#link2 a:hover{
-  color: black;
-  text-decoration: underline;
-  text-decoration-color: #ED3833;
-}
-
-#link2 a:visited{
-  color: black;
-}
-
-#link2 a:hover{
+.link2 a:hover {
   color: black;
   text-decoration: underline;
   text-decoration-color: #ED3833;
@@ -66,30 +57,31 @@
 
 
 
-#newsletter{
-    background-image: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 250px;
+
+#newsletter {
+  background-image: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 250px;
 }
 
-#suscribe{
-    min-height: 250px;
+#suscribe {
+  min-height: 250px;
 }
 
-#newsletterimg{
-    max-height: 250px;
+#newsletterimg {
+  max-height: 250px;
 }
 
-#nwlogofooterimg{
-    max-height: 30px;
+#nwlogofooterimg {
+  max-height: 30px;
 }
 
-#socialmediaimg{
-    max-height: 25px;
-} 
+#socialmediaimg {
+  max-height: 25px;
+}
 
-.card{
-    border: none
+.card {
+  border: none
 }
