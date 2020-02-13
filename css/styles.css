@@ -81,3 +81,19 @@
 .card {
   border: none;
 }
+
+.center{
+  height: 1880px;
+
+position: sticky;
+}
+
+.left{
+  height: 1880px;
+
+}
+
+.right{
+  height: 1880px;
+
+}
