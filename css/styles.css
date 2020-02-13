@@ -1,0 +1,83 @@
+#stickynav {
+  background-color: #ed3833;
+  z-index: 888888;
+  position: fixed;
+  top: 0;
+  height: 50px;
+}
+
+#stickynav img {
+  max-height: 30px;
+}
+
+.stknv-1 {
+  color: #fff;
+}
+
+.stknv-2 {
+  color: #ed3833;
+  background-color: #fff;
+}
+
+#dropdownMenuButton {
+  color: #f29993;
+  background-color: #ed3833;
+}
+
+#rednav {
+  background-color: #ed3833;
+  z-index: 999999999;
+  position: relative;
+}
+
+#whitenav {
+  z-index: 888887;
+  position: relative;
+}
+
+.link1 a:visited {
+  color: black;
+}
+
+.link1 a:hover {
+  color: #ed3833;
+  text-decoration: none;
+}
+
+.link2 a:visited {
+  color: black;
+}
+
+.link2 a:hover {
+  color: black;
+  text-decoration: underline;
+  text-decoration-color: #ed3833;
+}
+
+#newsletter {
+  background-image: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 250px;
+}
+
+#suscribe {
+  min-height: 250px;
+}
+
+#newsletterimg {
+  max-height: 250px;
+}
+
+#nwlogofooterimg {
+  max-height: 30px;
+}
+
+#socialmediaimg {
+  max-height: 25px;
+}
+
+.card {
+  border: none;
+}
