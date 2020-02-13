@@ -14,25 +14,96 @@
 </head>
 
 <body>
-    <div class="">
+    <nav>
+        <!--Sticky navbar-->
+        <div class="container-fluid" id="stickynav">
+            <div class="row pt-2 px-3">
+                <div class="col-3 m-0 p-0">
+                    <img src="assets/nw-nav-logo.png" alt="nw logo">
+                </div>
 
-    </div>
-    <nav class="navbar sticky-top navbar-light" style="background-color: #ED3833; color: #ffffff;">
-        <date>Wed, Feb 05, 2020</date>
-        <a class="navbar-brand" href="#">
-            <nav>Newsweek</nav>
-        </a>
+                <div class="col m-0 p-0">
+                    <ul class="list-inline float-right">
+                        <li class="list-inline-item" id="stknv-1"><a>
+                                <h5>SIGN IN</h5>
+                            </a> </li>
+                        <li class="list-inline-item h4 "><a href="#" class="badge badge-light rounded-0 px-4"
+                                id="stknv-2">SUBSCRIBE <i class="fas fa-chevron-right"></i></a></li>
+                        <li class="list-inline-item" id="stknv-3">
+                            <div class="dropdown">
+                                <button class="btn btn-secondary" type="button" id="dropdownMenuButton"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="fas fa-bars"></i>
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" href="#">Search <i class="fas fa-search"></i></a>
+                                    <a class="dropdown-item" href="#">U.S.</a>
+                                    <a class="dropdown-item" href="#">World</a>
+                                    <a class="dropdown-item" href="#">Business</a>
+                                    <a class="dropdown-item" href="#">Tech & Science</a>
+                                    <a class="dropdown-item" href="#">Culture</a>
+                                    <a class="dropdown-item" href="#">Newsgeek</a>
+                                    <a class="dropdown-item" href="#">Health</a>
+                                    <a class="dropdown-item" href="#">The Debate</a>
+                                    <a class="dropdown-item" href="#">Vantage</a>
+                                    <a class="dropdown-item" href="#">Weather</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--red navbar-->
+        <div class="container-fluid d-none d-lg-block" id="rednav">
+            <div class="row">
+                <div class="col pt-4" id="stknv-1">
+                    <h5>
+                        <date>Wed, Feb 12, 2020</date>
+                    </h5>
+                </div>
+                <div class="col">
+                    <img src="assets/nw-nav-logo.png" alt="NW logo">
+                </div>
+                <div class="col pt-4">
+                    <ul class="list-inline float-right ">
+                        <li class="list-inline-item " id="stknv-1"><a>
+                                <h5>SIGN IN</h5>
+                            </a> </li>
+                        <li class="list-inline-item h4 "><a href="#" class="badge badge-light rounded-0 px-3"
+                                id="stknv-2">SUBSCRIBE <i class="fas fa-chevron-right"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <!--white navbar-->
+        <div class="container-fluid d-none d-lg-block" id="whitenav">
+            <ul class="list-inline" id="link1">
+                <li class="list-inline-item h6"><a href="#">U.S.</a></li>
+                <li class="list-inline-item h6 border-left pl-2"><a href="#">World</a></li>
+                <li class="list-inline-item h6 border-left pl-2"><a href="#">Business</a></li>
+                <li class="list-inline-item h6 border-left pl-2"><a href="#">Tech & Science</a></li>
+                <li class="list-inline-item h6 border-left pl-2"><a href="#">Culture</a></li>
+                <li class="list-inline-item h6 border-left pl-2"><a href="#">Newsgeek</a></li>
+                <li class="list-inline-item h6 border-left pl-2"><a href="#">Sports</a></li>
+                <li class="list-inline-item h6 border-left pl-2"><a href="#">Health</a></li>
+                <li class="list-inline-item h6 border-left pl-2"><a href="#">The Debate</a></li>
+                <li class="list-inline-item h6 border-left pl-2"><a href="#">Vantage</a></li>
+                <li class="list-inline-item h6 border-left pl-2"><a href="#">Weather</a></li>
+                <li class="list-inline-item border-left pl-2"><a href="#">Search <i class="fas fa-search"></i></a> </li>
+            </ul>
+        </div>
     </nav>
-
     <main>
-        <div class="container-fluid">
+        <div class="container-fluid mt-5">
             <div class="container-fluid my-3">
                 <div class="row">
                     <!-- CENTER COLUMN/ TOP STORY/ MORE STORIES /CULTURE AND TRAVEL-->
                     <div class="col-sm-12 col-md-7 col-lg-6">
                         <div class="row ml-md-3 mx-lg-3">
                             <!-- TOP STORY-->
-                            <div class="col-sm-12 p-0">
+                            <div class="col-sm-12 p-0" id="link2">
                                 <div class="col-sm-12 p-0">
                                     <div class="container-fluid p-0">
                                         <p>TOP STORY</p>
@@ -43,7 +114,7 @@
                                                     alt="russia u.s. military coronavirus disinformation ">
                                             </figure>
                                             <h4>
-                                                Military Tracking Russia News Outlets for Coronavirus Disinformation
+                                                <a href="#">Military Tracking Russia News Outlets for Coronavirus Disinformation</a>
                                             </h4>
                                             <p>
                                                 Military planners are actively tracking disinformation campaigns
@@ -56,7 +127,7 @@
                                 </div>
                             </div>
                             <!-- MORE STORIES-->
-                            <div class="col-sm-12 order-md-last m-0 p-0 overflow-hidden">
+                            <div class="col-sm-12 order-md-last m-0 p-0" id="link2">
                                 <p class="m-0 p-0">MORE STORIES</p>
                                 <div class="row border-top">
                                     <div class=" col-4 p-0 mt-4">
@@ -66,8 +137,8 @@
                                         </figure>
                                     </div>
                                     <div class="col-8 p-0 mt-4 px-2">
-                                        <h4 class="">
-                                            Bernie Sanders Declares Victory in Iowa Caucuses
+                                        <h4>
+                                            <a href="#">Bernie Sanders Declares Victory in Iowa Caucuses</a>
                                         </h4>
                                         <p class="">
                                             While campaigning in New Hampshire, Senator Bernie Sanders delivered a
@@ -85,7 +156,7 @@
                                     </div>
                                     <div class="col-8 p-0 mt-4 px-2">
                                         <h4 class="">
-                                            As U.S. Holds Syria's East Oil Fields, Attacks Hit State-Held Energy Sites
+                                            <a href="#">As U.S. Holds Syria's East Oil Fields, Attacks Hit State-Held Energy Sites</a>
                                         </h4>
                                         <p class="">
                                             Syria blames "terrorist groups" and their alleged foreign backers for recent
@@ -104,7 +175,7 @@
                                     </div>
                                     <div class="col-8 p-0 mt-4 px-2">
                                         <h4 class="">
-                                            Trump Touts Firing James Comey, Says It Helped Impeachment Survival </h4>
+                                            <a href="#">Trump Touts Firing James Comey, Says It Helped Impeachment Survival </h4></a>
                                         <p class="">
                                             While campaigning in New Hampshire, Senator Bernie Sanders delivered a
                                             victory
@@ -122,7 +193,7 @@
                                     </div>
                                     <div class="col-8 p-0 mt-4 px-2">
                                         <h4 class="">
-                                            2020 Olympics Officials 'Extremely Worried' Coronavirus May Hamper Games
+                                            <a href="#">2020 Olympics Officials 'Extremely Worried' Coronavirus May Hamper Games</a>
                                         </h4>
                                         <p class="">
                                             A string of Olympics qualifying events have already been rescheduled.
@@ -316,7 +387,7 @@
                     <!-- LEFT COLUMN / FEATURED STORIES-->
                     <div class="col-sm-12 col-md-5 col-lg-3 order-md-first">
                         <!-- FEATURED STORIES-->
-                        <div class="row">
+                        <div class="row" id="link2">
                             <div class="col-sm-12 p-0">
                                 <div class="container-fluid p-0">
                                     <p>FEATURED STORIES</p>
@@ -326,7 +397,7 @@
                                                 alt="NRA">
                                         </figure>
                                         <h4>
-                                            Probe of NRA Finances Could Put Gun-Rights Group's Nonprofit Status at Risk
+                                            <a href="#">Probe of NRA Finances Could Put Gun-Rights Group's Nonprofit Status at Risk</a>
                                         </h4>
                                         <p>
                                             The report follows a year of public revelations about the NRA's spending
@@ -345,7 +416,8 @@
                                                 class="img-fluid" alt="Navy Medicine San Diego">
                                         </figure>
                                         <h4>
-                                            Navy Service Members and Family Rarely Treated After Blood Tests </h4>
+                                            <a href="#">Navy Service Members and Family Rarely Treated After Blood Tests </a>
+                                        </h4>
                                         <p>
                                             Between 2012 and 2017 Navy Medicine identified patients who had a positive
                                             fecal
@@ -364,7 +436,7 @@
                                                 class="img-fluid" alt="Julian Assange">
                                         </figure>
                                         <h4>
-                                            U.N. Torture Expert 'Genuinely Outraged' by Julian Assange Extradition Case
+                                            <a href="#">U.N. Torture Expert 'Genuinely Outraged' by Julian Assange Extradition Case</a>
                                         </h4>
                                         <p>
                                             "If you are going to put somebody in jail for the rest of his life for
@@ -384,7 +456,7 @@
                                                 alt="donald trump impeachment senate acquittal speech clinton">
                                         </figure>
                                         <h4>
-                                            Compare Trump's Speech About Senate Impeachment Acquittal to Clinton's </h4>
+                                            <a href="#">Compare Trump's Speech About Senate Impeachment Acquittal to Clinton's</a> </h4>
                                         <p>
                                             President Donald Trump's speech came more than 20 years after President Bill
                                             Clinton's and focused on praising his supporters and lambasting his
@@ -400,18 +472,21 @@
                     <div class="col-sm-12 col-md-12 col-lg-3 m-0 p-0">
                         <div class="row m-0 p-0">
                             <!--OPINION-->
-                            <div class="col-sm-12 p-0">
+                            <div class="col-sm-12 p-0 "id="link1" >
                                 <p class="m-0 p-0">OPINION</p>
-                                <div class="row m-0 p-0">
+                                <div class="row m-0 p-0" >
                                     <div class="col-1 col-lg-2 p-0 mt-4">
                                         <figure class="figure ">
                                             <img src="https://d.newsweek.com/en/full/1565379/starane-shepherd.png?"
                                                 class="img-fluid p-0 m-0" alt="Starane Shepherd">
                                         </figure>
                                     </div>
-                                    <div class="col-11 col-lg-10 p-0 mt-4 px-2">
+                                    <div class="col-11 col-lg-10 p-0 mt-4 px-2" >
                                         <h6>
-                                            Trump Is Wrong. U.S. Troops' Traumatic Brain Injuries Are Incredibly Serious
+                                                <a href="#" >
+                                                    Trump Is Wrong. U.S. Troops' Traumatic Brain Injuries Are Incredibly
+                                                    Serious
+                                                </a>
                                         </h6>
                                         <p>
                                             By Starane Shepherd
@@ -427,7 +502,8 @@
                                     </div>
                                     <div class="col-11 col-lg-10 p-0 mt-4 px-2">
                                         <h6>
-                                            Republicans Have Just Green-Lit Open Season on Our Elections </h6>
+                                                <a href="#">Republicans Have Just Green-Lit Open Season on Our Elections</a>
+                                        </h6>
                                         <p>
                                             BY DOUG GORDON
                                         </p>
@@ -443,7 +519,7 @@
                                     </div>
                                     <div class="col-11 col-lg-10 p-0 mt-4 px-2">
                                         <h6>
-                                            The Oscar for Lying Goes To...
+                                            <a href="#">The Oscar for Lying Goes To...</a>
                                         </h6>
                                         <p>
                                             BY TOM ROGERS
@@ -460,7 +536,7 @@
                                     </div>
                                     <div class="col-11 col-lg-10 p-0 mt-4 px-2">
                                         <h6>
-                                            The State of (Gender Equity in) the Union
+                                            <a href="#">The State of (Gender Equity in) the Union</a>
                                         </h6>
                                         <p>
                                             BY CECILE RICHARDS AND AMANDA BROWN LIERMAN
@@ -477,7 +553,7 @@
                                     </div>
                                     <div class="col-11 col-lg-10 p-0 mt-4 px-2">
                                         <h6>
-                                            The Acquittal of Donald Trump Is Brought to You by Fox News
+                                            <a href="#">The Acquittal of Donald Trump Is Brought to You by Fox News</a>
                                         </h6>
                                         <p>
                                             BY BRIAN L. OTT
@@ -493,7 +569,7 @@
                                     </div>
                                     <div class="col-11 col-lg-10 p-0 mt-4 px-2">
                                         <h6>
-                                            Bye-Bye, Biden. Hello, Bloomberg. And Welcome, Brokered Convention
+                                            <a href="#">Bye-Bye, Biden. Hello, Bloomberg. And Welcome, Brokered Convention</a>
                                         </h6>
                                         <p>
                                             BY NEWT GINGRICH
@@ -503,7 +579,7 @@
                             </div>
                         </div>
                         <!--LATEST NEWS-->
-                        <div class="col-sm-12 m-0 p-0">
+                        <div class="col-sm-12 m-0 p-0" id="link1">
                             <p class="m-0 p-0">LATEST NEWS</p>
                             <div class="row m-0 p-0">
                                 <div class="col-4 col-md-3 col-lg-5 p-0 mt-3">
@@ -514,7 +590,7 @@
                                 </div>
                                 <div class="col-8 col-md-9 col-lg-7 p-0 mt-3 pl-3">
                                     <h6>
-                                        Mass Detentions of Chinese Muslims Likely to Worsen Coronavirus Scare
+                                        <a href="#">Mass Detentions of Chinese Muslims Likely to Worsen Coronavirus Scare</a>
                                     </h6>
                                 </div>
                             </div>
@@ -527,7 +603,8 @@
                                 </div>
                                 <div class="col-8 col-md-9 col-lg-7 p-0 mt-3 pl-3">
                                     <h6>
-                                        Christian Activist to Sue NFL for Super Bowl Halftime Show </h6>
+                                        <a href="#">Christian Activist to Sue NFL for Super Bowl Halftime Show </a>
+                                    </h6>
                                 </div>
                             </div>
                             <div class="row m-0 p-0 border-top">
@@ -540,7 +617,7 @@
                                 </div>
                                 <div class="col-8 col-md-9 col-lg-7 p-0 mt-3 pl-3">
                                     <h6>
-                                        James Woods Goes After 'Moron' AOC, Hillary, Others in Return to Twitter
+                                        <a href="#">James Woods Goes After 'Moron' AOC, Hillary, Others in Return to Twitter</a>
                                 </div>
                             </div>
                             <div class="row m-0 p-0 border-top">
@@ -552,7 +629,7 @@
                                 </div>
                                 <div class="col-8 col-md-9 col-lg-7 p-0 mt-3 pl-3">
                                     <h6>
-                                        Tornado Risk in Washington, D.C. and Northeast After Severe Thunderstorms
+                                        <a href="#">Tornado Risk in Washington, D.C. and Northeast After Severe Thunderstorms</a>
                                 </div>
                             </div>
                             <div class="row m-0 p-0 border-top">
@@ -564,7 +641,7 @@
                                 </div>
                                 <div class="col-8 col-md-9 col-lg-7 p-0 mt-3 pl-3">
                                     <h6>
-                                        Fox Affiliate Apologizes for Using Mug Shot in Story About Senate Candidate
+                                        <a href="#">Fox Affiliate Apologizes for Using Mug Shot in Story About Senate Candidate</a>
                                 </div>
                             </div>
                             <div class="row m-0 p-0 border-top">
@@ -577,7 +654,7 @@
                                 </div>
                                 <div class="col-8 col-md-9 col-lg-7 p-0 mt-3 pl-3">
                                     <h6>
-                                        GOP Group to Run Ad on Fox News Thanking Mitt Romney for Convicting Trump
+                                        <a href="#">GOP Group to Run Ad on Fox News Thanking Mitt Romney for Convicting Trump</a>
                                 </div>
                             </div>
                             <div class="row m-0 p-0 border-top">
@@ -589,7 +666,7 @@
                                 </div>
                                 <div class="col-8 col-md-9 col-lg-7 p-0 mt-3 pl-3">
                                     <h6>
-                                        Ancient Rock Art May Tell Stories From Period of Dramatic Sea Level Rise
+                                        <a href="#">Ancient Rock Art May Tell Stories From Period of Dramatic Sea Level Rise</a>
                                 </div>
                             </div>
                             <div class="col-sm-12 d-flex justify-content-center">
@@ -703,8 +780,9 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-12 col-md-3 flex-column" >
-                            <img class="card-img-top" src="https://d.newsweek.com/en/full/1552756/mt-etna-italy.jpg?" alt="Mt Etna, Italy ">
+                        <div class="col-12 col-md-3 flex-column">
+                            <img class="card-img-top" src="https://d.newsweek.com/en/full/1552756/mt-etna-italy.jpg?"
+                                alt="Mt Etna, Italy ">
                             <div class="card-body">
                                 <h5 class="card-title">
                                     <div class="row m-0 p-0 ">
@@ -714,11 +792,14 @@
                                         </p>
                                     </div>
                                 </h5>
-                                <h4 class="card-text">Active Volcanoes Around the World That Could Erupt at Any Moment</h4>
+                                <h4 class="card-text">Active Volcanoes Around the World That Could Erupt at Any Moment
+                                </h4>
                             </div>
                         </div>
-                        <div class="col-12 col-md-3 flex-column" >
-                            <img class="card-img-top" src="https://d.newsweek.com/en/full/1564968/cul-map-undergroundsubways-06-157155767.jpg?" alt="CUL_Map_UndergroundSubways">
+                        <div class="col-12 col-md-3 flex-column">
+                            <img class="card-img-top"
+                                src="https://d.newsweek.com/en/full/1564968/cul-map-undergroundsubways-06-157155767.jpg?"
+                                alt="CUL_Map_UndergroundSubways">
                             <div class="card-body">
                                 <h5 class="card-title">
                                     <div class="row m-0 p-0 ">
@@ -732,7 +813,9 @@
                             </div>
                         </div>
                         <div class="col-12 col-md-3 flex-column">
-                            <img class="card-img-top" src="https://d.newsweek.com/en/full/1518076/crown-prince-naruhito-japan-his-future-wife-masako-owada-pose-photographs-traditional-japanese.jpg?" alt=" Crown Prince Naruhito of Japan and his future wife Masako Owada pose for photographs in traditional Japanese costume prior to their wedding June 2, 1993 in Tokyo">
+                            <img class="card-img-top"
+                                src="https://d.newsweek.com/en/full/1518076/crown-prince-naruhito-japan-his-future-wife-masako-owada-pose-photographs-traditional-japanese.jpg?"
+                                alt=" Crown Prince Naruhito of Japan and his future wife Masako Owada pose for photographs in traditional Japanese costume prior to their wedding June 2, 1993 in Tokyo">
                             <div class="card-body">
                                 <h5 class="card-title">
                                     <div class="row m-0 p-0 ">
@@ -746,7 +829,9 @@
                             </div>
                         </div>
                         <div class="col-12 col-md-3 flex-column">
-                            <img class="card-img-top" src="https://d.newsweek.com/en/full/1541416/red-planet-jordan.jpg?" alt="Red Planet Jordan ">
+                            <img class="card-img-top"
+                                src="https://d.newsweek.com/en/full/1541416/red-planet-jordan.jpg?"
+                                alt="Red Planet Jordan ">
                             <div class="card-body">
                                 <h5 class="card-title">
                                     FIRST TIMER
@@ -992,7 +1077,7 @@
                     </div>
                 </div>
                 <!-- US-->
-                <div class="container-fluid m-0 p-0 mt-sm-3">
+                <div class="container-fluid m-0 p-0 mt-sm-3" >
                     <div class="container-fluid m-0 p-0">
                         <div class="text-left pt-2 border-top mb-3">
                             <h3 class="text-danger">
@@ -1001,32 +1086,34 @@
                         </div>
                     </div>
                     <div class="container-fluid m-0 p-0">
-                        <div class="row m-0 p-0">
+                        <div class="row m-0 p-0" >
                             <div class="col-sm-12 col-md-4 m-0 p-0 pr-md-2">
-                                <div>
+                                <div id="link2">
                                     <figure class="figure">
                                         <img src="https://d.newsweek.com/en/full/1566379/joe-biden-bernie-sanders.jpg?"
                                             class="img-fluid" alt="Joe Biden and Bernie Sanders">
                                     </figure>
                                     <h4>
-                                        Bernie Sanders Leads Joe Biden in New National Poll Ahead of New
-                                        Hampshire
+                                        <a href="#">
+                                            Bernie Sanders Leads Joe Biden in New National Poll Ahead of New
+                                            Hampshire
+                                        </a>
                                     </h4>
                                 </div>
                             </div>
                             <div class="col-sm-12 col-md-4 m-0 p-0 px-md-2">
-                                <div>
+                                <div id="link2">
                                     <figure class="figure">
                                         <img src="https://d.newsweek.com/en/full/1566187/ice-protest.jpg?"
                                             class="img-fluid" alt="ICE protest">
                                     </figure>
                                     <h4>
-                                        State Senator Compares Ice Shooting Man in the Face to KKK Brutality
+                                        <a href="#">State Senator Compares Ice Shooting Man in the Face to KKK Brutality</a>
                                     </h4>
 
                                 </div>
                             </div>
-                            <div class="col-sm-12 col-md-4 m-0 p-0 pl-md-2">
+                            <div class="col-sm-12 col-md-4 m-0 p-0 pl-md-2" id="link1">
                                 <div class="row m-0 p-0">
                                     <div class="col-5 col-md-7 col-lg-4 p-0 m-0">
                                         <figure class="figure">
@@ -1036,7 +1123,7 @@
                                     </div>
                                     <div class="col-7 col-md-5 col-lg-8 p-0 m-0 pl-2 ">
                                         <h5>
-                                            DOJ Gave $500K Anti-Human Trafficking Grant to 'Hookers for Jesus'
+                                            <a href="#">DOJ Gave $500K Anti-Human Trafficking Grant to 'Hookers for Jesus'</a>
                                         </h5>
                                     </div>
                                 </div>
@@ -1050,8 +1137,10 @@
                                     </div>
                                     <div class="col-7 col-md-5 col-lg-8 p-0 m-0 pl-2 pt-3">
                                         <h5>
-                                            How to Watch and Live Stream Trump's Rally in Manchester, New
-                                            Hampshire
+                                            <a href="#">
+                                                How to Watch and Live Stream Trump's Rally in Manchester, New
+                                                Hampshire
+                                            </a>
                                         </h5>
                                     </div>
                                 </div>
@@ -1064,8 +1153,10 @@
                                     </div>
                                     <div class="col-7 col-md-5 col-lg-8 p-0 m-0 pl-2 pt-3">
                                         <h5>
-                                            'Hit List': Democrats Blast Trump Budget Cuts to EPA, Medicaid,
-                                            Education
+                                            <a href="#">
+                                                'Hit List': Democrats Blast Trump Budget Cuts to EPA, Medicaid,
+                                                Education
+                                            </a>
                                         </h5>
                                     </div>
                                 </div>
@@ -1110,7 +1201,7 @@
 
                                     </div>
                                 </div>
-                                <div class="col-sm-12 col-md-4 m-0 p-0 pl-md-2">
+                                <div class="col-sm-12 col-md-4 m-0 p-0 pl-md-2" id="link1">
                                     <div class="row m-0 p-0">
                                         <div class="col-5 col-md-7 col-lg-4 p-0 m-0">
                                             <figure class="figure">
@@ -1121,8 +1212,10 @@
                                         </div>
                                         <div class="col-7 col-md-5 col-lg-8 p-0 m-0 pl-2 ">
                                             <h5>
-                                                Trump Risks 'Nuclear Blackmail' Unless He Extends Russia New
-                                                START Deal
+                                                <a href="#">
+                                                    Trump Risks 'Nuclear Blackmail' Unless He Extends Russia New
+                                                    START Deal
+                                                </a>
                                             </h5>
                                         </div>
                                     </div>
@@ -1135,8 +1228,10 @@
                                         </div>
                                         <div class="col-7 col-md-5 col-lg-8 p-0 m-0 pl-2 pt-3">
                                             <h5>
-                                                Police Called After Oklahoma Neighbors Battle With Feces, Guns,
-                                                Roomba
+                                                <a href="#">
+                                                    Police Called After Oklahoma Neighbors Battle With Feces, Guns,
+                                                    Roomba
+                                                </a>
                                             </h5>
                                         </div>
                                     </div>
@@ -1149,8 +1244,10 @@
                                         </div>
                                         <div class="col-7 col-md-5 col-lg-8 p-0 m-0 pl-2 pt-3">
                                             <h5>
-                                                Teenager Praised After Turning in Bag That Contained Thousands
-                                                of Dollars
+                                                <a href="#">
+                                                    Teenager Praised After Turning in Bag That Contained Thousands
+                                                    of Dollars
+                                                </a>
                                             </h5>
                                         </div>
                                     </div>
@@ -1193,7 +1290,7 @@
 
                                 </div>
                             </div>
-                            <div class="col-sm-12 col-md-4 m-0 p-0 pl-md-2">
+                            <div class="col-sm-12 col-md-4 m-0 p-0 pl-md-2" id="link1">
                                 <div class="row m-0 p-0">
                                     <div class="col-5 col-md-7 col-lg-4 p-0 m-0">
                                         <figure class="figure">
@@ -1203,7 +1300,7 @@
                                     </div>
                                     <div class="col-7 col-md-5 col-lg-8 p-0 m-0 pl-2 ">
                                         <h5>
-                                            Warner Bros. and HBO Max Announce Warner Max
+                                            <a href="#">Warner Bros. and HBO Max Announce Warner Max</a>
                                         </h5>
                                     </div>
                                 </div>
@@ -1216,7 +1313,7 @@
                                     </div>
                                     <div class="col-7 col-md-5 col-lg-8 p-0 m-0 pl-2 pt-3">
                                         <h5>
-                                            Female Entrepreneur Active in Tokyo and Uganda
+                                            <a href="#">Female Entrepreneur Active in Tokyo and Uganda</a>
                                         </h5>
                                     </div>
                                 </div>
@@ -1229,7 +1326,7 @@
                                     </div>
                                     <div class="col-7 col-md-5 col-lg-8 p-0 m-0 pl-2 pt-3">
                                         <h5>
-                                            Nike Denies Pulling Kobe Bryant-branded Products From Its Website
+                                            <a href="#">Nike Denies Pulling Kobe Bryant-branded Products From Its Website</a>
                                         </h5>
                                     </div>
                                 </div>
@@ -1271,7 +1368,7 @@
 
                                 </div>
                             </div>
-                            <div class="col-sm-12 col-md-4 m-0 p-0 pl-md-2">
+                            <div class="col-sm-12 col-md-4 m-0 p-0 pl-md-2" id="link1">
                                 <div class="row m-0 p-0">
                                     <div class="col-5 col-md-7 col-lg-4 p-0 m-0">
                                         <figure class="figure">
@@ -1282,7 +1379,7 @@
                                     </div>
                                     <div class="col-7 col-md-5 col-lg-8 p-0 m-0 pl-2 ">
                                         <h5>
-                                            200-Year-Old Log Cabin Discovered Beneath Pennsylvania Bar
+                                            <a href="#">200-Year-Old Log Cabin Discovered Beneath Pennsylvania Bar</a>
                                         </h5>
                                     </div>
                                 </div>
@@ -1295,7 +1392,7 @@
                                     </div>
                                     <div class="col-7 col-md-5 col-lg-8 p-0 m-0 pl-2 pt-3">
                                         <h5>
-                                            209-MPH Wind Gust Measured at California Peak Could Be a Record-Breaker
+                                            <a href="#">209-MPH Wind Gust Measured at California Peak Could Be a Record-Breaker</a>
                                         </h5>
                                     </div>
                                 </div>
@@ -1308,7 +1405,7 @@
                                     </div>
                                     <div class="col-7 col-md-5 col-lg-8 p-0 m-0 pl-2 pt-3">
                                         <h5>
-                                            Tornadoes and Severe 'Atypical' Weather Hit Virginia And Maryland
+                                            <a href="#">Tornadoes and Severe 'Atypical' Weather Hit Virginia And Maryland</a>
                                         </h5>
                                     </div>
                                 </div>
@@ -1350,7 +1447,7 @@
 
                                 </div>
                             </div>
-                            <div class="col-sm-12 col-md-4 m-0 p-0 pl-md-2">
+                            <div class="col-sm-12 col-md-4 m-0 p-0 pl-md-2" id="link1">
                                 <div class="row m-0 p-0">
                                     <div class="col-5 col-md-7 col-lg-4 p-0 m-0">
                                         <figure class="figure">
@@ -1360,7 +1457,7 @@
                                     </div>
                                     <div class="col-7 col-md-5 col-lg-8 p-0 m-0 pl-2 ">
                                         <h5>
-                                            Why People Like Picard, According to Patrick Stewart
+                                            <a href="#">Why People Like Picard, According to Patrick Stewart</a>
                                         </h5>
                                     </div>
                                 </div>
@@ -1374,7 +1471,7 @@
                                     </div>
                                     <div class="col-7 col-md-5 col-lg-8 p-0 m-0 pl-2 pt-3">
                                         <h5>
-                                            Five Facts About Bong Joon Ho's Interpreter Sharon Choi
+                                        <a href="#">Five Facts About Bong Joon Ho's Interpreter Sharon Choi</a>
                                         </h5>
                                     </div>
                                 </div>
@@ -1387,7 +1484,7 @@
                                     </div>
                                     <div class="col-7 col-md-5 col-lg-8 p-0 m-0 pl-2 pt-3">
                                         <h5>
-                                            Trends After Gayle King Receives Death Threats
+                                            <a href="#">Trends After Gayle King Receives Death Threats</a>
                                         </h5>
                                     </div>
                                 </div>
@@ -1429,7 +1526,7 @@
 
                                 </div>
                             </div>
-                            <div class="col-sm-12 col-md-4 m-0 p-0 pl-md-2">
+                            <div class="col-sm-12 col-md-4 m-0 p-0 pl-md-2" id="link1">
                                 <div class="row m-0 p-0">
                                     <div class="col-5 col-md-7 col-lg-4 p-0 m-0">
                                         <figure class="figure">
@@ -1439,8 +1536,10 @@
                                     </div>
                                     <div class="col-7 col-md-5 col-lg-8 p-0 m-0 pl-2 ">
                                         <h5>
-                                            LSU Hiring Former NFL Coach Linehan Shows Tigers Want To Remain SEC
-                                            Leader
+                                            <a href="#">
+                                                LSU Hiring Former NFL Coach Linehan Shows Tigers Want To Remain SEC
+                                                Leader
+                                            </a>
                                         </h5>
                                     </div>
                                 </div>
@@ -1453,8 +1552,10 @@
                                     </div>
                                     <div class="col-7 col-md-5 col-lg-8 p-0 m-0 pl-2 pt-3">
                                         <h5>
-                                            5 Teams Where Philip Rivers Could Land After Parting Ways With the
-                                            Chargers
+                                            <a href="#">
+                                                5 Teams Where Philip Rivers Could Land After Parting Ways With the
+                                                Chargers
+                                            </a>
                                         </h5>
                                     </div>
                                 </div>
@@ -1467,8 +1568,10 @@
                                     </div>
                                     <div class="col-7 col-md-5 col-lg-8 p-0 m-0 pl-2 pt-3">
                                         <h5>
-                                            wwe simone johnson performance center
-                                            Simone Johnson Joins WWE Performance Center Full Time
+                                            <a href="#">
+                                                wwe simone johnson performance center
+                                                Simone Johnson Joins WWE Performance Center Full Time
+                                            </a>
                                         </h5>
                                     </div>
                                 </div>
@@ -1560,30 +1663,34 @@
                 </div>
                 <div class="container-fluid my-3 border-top">
                     <div class="row">
-                        <ul class="list-inline ">
-                            <li class="list-inline-item font-weight-bold">Editions:</li>
-                            <li class="list-inline-item px-3">U.S. Edition</li>
-                            <li class="list-inline-item border-left px-3">日本</li class="list-inline-item">
-                            <li class="list-inline-item border-left px-3">Pakistan</li class="list-inline-item">
-                            <li class="list-inline-item border-left px-3">Polska</li class="list-inline-item">
-                            <li class="list-inline-item border-left px-3">România</li class="list-inline-item">
+                        <ul class="list-inline " id="link1">
+                            <a href="#">
+                                <li class="list-inline-item font-weight-bold">Editions:</li>
+                                <li class="list-inline-item px-3">U.S. Edition</li>
+                                <li class="list-inline-item border-left px-3">日本</li class="list-inline-item">
+                                <li class="list-inline-item border-left px-3">Pakistan</li class="list-inline-item">
+                                <li class="list-inline-item border-left px-3">Polska</li class="list-inline-item">
+                                <li class="list-inline-item border-left px-3">România</li class="list-inline-item">
+                            </a>
                         </ul>
                     </div>
                     <div class="row">
-                        <ul class="list-inline ">
-                            <li class="list-inline-item">About Us:</li>
-                            <li class="list-inline-item pr-md-3">Corrections</li>
-                            <li class="list-inline-item pr-md-3">Contact Us</li class="list-inline-item">
-                            <li class="list-inline-item pr-md-3">Editorial Guidelines</li class="list-inline-item">
-                            <li class="list-inline-item pr-md-3">Advertise</li class="list-inline-item">
-                            <li class="list-inline-item pr-md-3">Copyright</li class="list-inline-item">
-                            <li class="list-inline-item pr-md-3">Terms & Conditions</li class="list-inline-item">
-                            <li class="list-inline-item pr-md-3">Privacy Policy</li class="list-inline-item">
-                            <li class="list-inline-item pr-md-3">Cookie Policy</li class="list-inline-item">
-                            <li class="list-inline-item pr-md-3">Terms of Sale</li class="list-inline-item">
-                            <li class="list-inline-item pr-md-3">Archive</li class="list-inline-item">
-                            <li class="list-inline-item pr-md-3">Announcements</li class="list-inline-item">
-                            <li class="list-inline-item pr-md-3">Consent preferences</li class="list-inline-item">
+                        <ul class="list-inline "id="link1">
+                            <a href="#">
+                                <li class="list-inline-item">About Us:</li>
+                                <li class="list-inline-item pr-md-3">Corrections</li>
+                                <li class="list-inline-item pr-md-3">Contact Us</li class="list-inline-item">
+                                <li class="list-inline-item pr-md-3">Editorial Guidelines</li class="list-inline-item">
+                                <li class="list-inline-item pr-md-3">Advertise</li class="list-inline-item">
+                                <li class="list-inline-item pr-md-3">Copyright</li class="list-inline-item">
+                                <li class="list-inline-item pr-md-3">Terms & Conditions</li class="list-inline-item">
+                                <li class="list-inline-item pr-md-3">Privacy Policy</li class="list-inline-item">
+                                <li class="list-inline-item pr-md-3">Cookie Policy</li class="list-inline-item">
+                                <li class="list-inline-item pr-md-3">Terms of Sale</li class="list-inline-item">
+                                <li class="list-inline-item pr-md-3">Archive</li class="list-inline-item">
+                                <li class="list-inline-item pr-md-3">Announcements</li class="list-inline-item">
+                                <li class="list-inline-item pr-md-3">Consent preferences</li class="list-inline-item">
+                            </a>
                         </ul>
                     </div>
                 </div>
