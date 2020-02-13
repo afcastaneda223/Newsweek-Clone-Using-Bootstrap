@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+
 #stickynav {
   background-color: #ed3833;
   z-index: 888888;
@@ -89,4 +93,19 @@ body h4 {
 
 body p {
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.scroll{
+  max-height: 1800px;
+  position: relative;
+}
+
+.left{
+  min-height: 1850px;
+  position: relative;
+}
+
+.right{
+  min-height: 1850px;
+  position: relative;
 }
