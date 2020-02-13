@@ -98,17 +98,14 @@ body p {
 .scroll {
   max-height: 2100px;
   position: relative;
-  border: 2px solid red;
 }
 
 .left {
   min-height: 1850px;
   position: relative;
-  border: 2px solid red;
 }
 
 .right {
   min-height: 1850px;
   position: relative;
-  border: 2px solid red;
 }
