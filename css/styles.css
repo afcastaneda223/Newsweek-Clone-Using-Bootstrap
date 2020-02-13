@@ -1,4 +1,4 @@
-*{
+* {
   box-sizing: border-box;
 }
 
@@ -95,22 +95,20 @@ body p {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.scroll{
+.scroll {
   max-height: 2100px;
   position: relative;
   border: 2px solid red;
 }
 
-.left{
+.left {
   min-height: 1850px;
   position: relative;
   border: 2px solid red;
-
 }
 
-.right{
+.right {
   min-height: 1850px;
   position: relative;
   border: 2px solid red;
-
 }
