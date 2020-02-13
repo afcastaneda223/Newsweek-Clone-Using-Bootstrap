@@ -82,18 +82,15 @@
   border: none;
 }
 
-.center{
+.center {
   height: 1880px;
-
-position: sticky;
+  position: sticky;
 }
 
-.left{
+.left {
   height: 1880px;
-
 }
 
-.right{
+.right {
   height: 1880px;
-
 }
