@@ -2,6 +2,8 @@
 
 > Using Bootstrap to Clone Newsweek page
 
+![screenshot](./assets/screenshot.png)
+
 ## Live Version
 
 - https://afcastaneda223.github.io/Newsweek-Clone-Using-Bootstrap/
